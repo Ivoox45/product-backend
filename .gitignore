@@ -1,0 +1,61 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Archivos de IntelliJ
+.idea/
+*.iml
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Java compiled classes
+*.class
+
+# Spring Boot config secrets
+application.properties
+application.yml
+application-*.properties
+application-*.yml
+.env
+
+# Keystores and secrets
+*.p12
+*.jks
+*.pem
+*.key
+*.crt
+secrets.*
